@@ -1,0 +1,13 @@
+// Levels extracted verbatim from src/Werner.asm (label `levels:`)
+// 20x14 chars: m=Mauer d=Dreck w=Werner b/r/u/l=Bulle s=Stein f=Flasche ' '=leer
+export const BUILTIN_LEVELS = [
+  "mmmmmmmmmmmmmmmmmmmmmmmfmmmmmmmmmmmmmmmmmr r r r r r r r r mm m       m mmmmmmummb m     m  m l lm mm   m   m   mu   mummb   m m    m   bm mm     mw    mu   mummb    m     m   bm mm     m     mu   mummb    m     m r bm mm     m     mmmmmmummb l           l l mmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmmsdssssssssssssssssmmwdssssssssddddddddmmsdddssssssdssssssdmmsdsdsddddsddddsssdmmsdsdsdsdssssdssssdmmsdsdsdsdssssdssssdmmsdsdsdsdssssdssssdmmsdsdsdsddsdsdssssdmmsdsdsdsdssdsdssssdmmsdsdsdsddddddssssdmmsdsdsdssssssdssssdmmsdsdddssssssddddsfmmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmmsdsmbbbsssssssssssmmwdm    b s bbsssssmmds   bssss bssssssmmdbb    ssss  sssbsmmds        sssssssbmmdm         sssbb  mmdm            ss  mmmm                mm      b     b b   mm             b    mmddddddddddddddddddmm                 fmmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmm   m  m mbm m m mfmm wbmb m m m mbm m mm   m  m    b    m mmm mmb   m m m m m mmb  m  mmmmmmmmm m mmm  mb m   m  b    mm   m    m mmmm  m mmm mmb mmb    m  m mm   mmmmmmm mmmmmmmmmb  m   bb         mmm mmmmmmmmmmmm mmmmmb                 mmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmmf  b  b   b  b    mm mmm m m m  m mmm mm mrm mmm m m bmlm mm mmm mmm m mm mmm mm mbm m m m m mmbm mm m m m m m  m m m mm                  mm b  b  b b      b mm b   b    b b     mm  b   b      b  b mm         d    b   mm        dwd       mmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmm m m r mwm   dsssfmm   mbf m m   dssssmm m m l m m   dssssmm m mm mm mmmbdddddmm m    bm mbm      mm m     m   mb     mm mmmmmmm m m      mm         mfmb     mm mmmmmmm mmmmmm mmmm mm b mm         bmm  mbf mm mmmmmmm mmmbmm   mm mf      bmmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmmddddddddddddddddddmmdddddddddddddddddwmmddddddddddddddddddmmdmmmmmmmmmmmmmmmmmmmddddddddddddddddddmmmmmmmmmmmmmmmmmmmdmmb        b       bmmdmmmmmmmmmmmmmmmmmmm b   b      b    bmmmmmmmmmmmmmmmmmmmdmm   b    b         mmf   b  b          mmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmm r r r r r r r r ummbmmmmmmmmmmmmmmmm mm ml l l l l l l mummbm mmmmmmmmmmmmbm mmwm mr r r r r m mumm m m mmmmmmmmumbm mm  umbmmmfmmmm   mummbm m l l l   lmbm mm mummmmmmmmmmmm mummbm r r r r r r bm mm mmmmmmmmmmmmmmmmummb l l l l l l l l mmmmmmmmmmmmmmmmmmmmm",
+  "mmmmmmmmmmmmmmmmmmmmmfsw    m         bmmmsmm mmmmmm mmmm mmmdsb    m  b  mb   mmdsmmm mmmm mmmmm mmmds b   m b   m b  mmdsmm mmmmmm mmmm mmmds   b mb    m   bmmdsmm mmmmm mmmmm mmmdsm     b    mb   mmdsm   m     mmmm mmmmsmmmmdmmmmm      mmddb             dmmmmmmmmmmmmmmmmmmmmmm"
+];

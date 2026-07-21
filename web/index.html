@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WernerAGA 1.0 &mdash; web port</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="screen" width="680" height="512"></canvas>
+  <div id="loading">loading&hellip;</div>
+</div>
+
+<div id="panel">
+  <p class="keys">
+    <b>&larr;&uarr;&rarr;&darr;</b> / <b>WASD</b> move &middot;
+    <b>Fire</b> = click or <b>F</b> &middot;
+    <b>Space</b> give up life &middot;
+    <b>Esc</b> end game &middot;
+    <b>Return</b> skip level &middot;
+    <b>P</b> pause
+  </p>
+  <p class="keys">
+    <label>Load a <code>levelset</code> file (n &times; 280 bytes):
+      <input type="file" id="levelset">
+    </label>
+    <button id="builtin" type="button">use built-in levels</button>
+    <span id="levelinfo"></span>
+  </p>
+  <p class="about">
+    Browser port of <b>WernerAGA 1.0</b> (Patrick Klie, 21.5.1995) &mdash; a 68k
+    assembler game for Amiga&nbsp;OS3 / AGA. Rules, levels, palette, sprites and
+    title screen are taken straight out of <code>src/Werner.asm</code>.
+  </p>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
