@@ -73,3 +73,14 @@ button {
 button:hover { background: #23233a; }
 
 #levelinfo { color: var(--dim); }
+
+.disclaimer {
+  margin-top: .6rem;
+  padding-top: .6rem;
+  border-top: 1px solid #23233a;
+  color: var(--dim);
+  font-size: 12px;
+  text-wrap: pretty;
+}
+
+.disclaimer b { color: var(--ink); }
